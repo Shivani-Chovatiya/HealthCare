@@ -33,12 +33,12 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a
-          href="#book"
+        <Link
+          to="/book"
           className="hidden md:inline-block rounded-lg bg-teal-600 px-4 py-2 text-sm font-semibold text-white hover:bg-teal-700"
         >
           Get Started
-        </a>
+        </Link>
 
         {/* Mobile toggle */}
         <button
